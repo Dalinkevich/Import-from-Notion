@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3F192626C1546F00FF2129 /* NotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F192526C1546F00FF2129 /* NotionTableViewCell.swift */; };
+		AF883EF326BBB85800086F5C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF883EF226BBB85800086F5C /* ViewModel.swift */; };
+		AFCA25ED26B6817300AE599F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA25EC26B6817300AE599F /* AppDelegate.swift */; };
+		AFCA25EF26B6817300AE599F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA25EE26B6817300AE599F /* SceneDelegate.swift */; };
+		AFCA25F126B6817300AE599F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA25F026B6817300AE599F /* ViewController.swift */; };
+		AFCA25F426B6817300AE599F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCA25F226B6817300AE599F /* Main.storyboard */; };
+		AFCA25F626B6817300AE599F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCA25F526B6817300AE599F /* Assets.xcassets */; };
+		AFCA25F926B6817300AE599F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCA25F726B6817300AE599F /* LaunchScreen.storyboard */; };
+		AFCA260426B6817300AE599F /* Import_to_notionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA260326B6817300AE599F /* Import_to_notionTests.swift */; };
+		AFCA260F26B6817300AE599F /* Import_to_notionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA260E26B6817300AE599F /* Import_to_notionUITests.swift */; };
+		AFCA262826B7DA7E00AE599F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA262726B7DA7E00AE599F /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFCA260026B6817300AE599F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCA25E126B6817300AE599F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCA25E826B6817300AE599F;
+			remoteInfo = "Import to notion";
+		};
+		AFCA260B26B6817300AE599F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCA25E126B6817300AE599F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCA25E826B6817300AE599F;
+			remoteInfo = "Import to notion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF3F192526C1546F00FF2129 /* NotionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionTableViewCell.swift; sourceTree = "<group>"; };
+		AF883EF226BBB85800086F5C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AFCA25E926B6817300AE599F /* Import to notion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Import to notion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCA25EC26B6817300AE599F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFCA25EE26B6817300AE599F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFCA25F026B6817300AE599F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFCA25F326B6817300AE599F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFCA25F526B6817300AE599F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFCA25F826B6817300AE599F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFCA25FA26B6817300AE599F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCA25FF26B6817300AE599F /* Import to notionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Import to notionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCA260326B6817300AE599F /* Import_to_notionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Import_to_notionTests.swift; sourceTree = "<group>"; };
+		AFCA260526B6817300AE599F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCA260A26B6817300AE599F /* Import to notionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Import to notionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCA260E26B6817300AE599F /* Import_to_notionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Import_to_notionUITests.swift; sourceTree = "<group>"; };
+		AFCA261026B6817300AE599F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCA262726B7DA7E00AE599F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCA25E626B6817300AE599F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCA25FC26B6817300AE599F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCA260726B6817300AE599F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF3F192426C1544F00FF2129 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F192526C1546F00FF2129 /* NotionTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AF883EF126BBB80C00086F5C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF883EF226BBB85800086F5C /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AFCA25E026B6817300AE599F = {
+			isa = PBXGroup;
+			children = (
+				AFCA25EB26B6817300AE599F /* Import to notion */,
+				AFCA260226B6817300AE599F /* Import to notionTests */,
+				AFCA260D26B6817300AE599F /* Import to notionUITests */,
+				AFCA25EA26B6817300AE599F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCA25EA26B6817300AE599F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA25E926B6817300AE599F /* Import to notion.app */,
+				AFCA25FF26B6817300AE599F /* Import to notionTests.xctest */,
+				AFCA260A26B6817300AE599F /* Import to notionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCA25EB26B6817300AE599F /* Import to notion */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA262026B7C4CA00AE599F /* Application */,
+				AFCA262626B7DA0700AE599F /* Model */,
+				AF883EF126BBB80C00086F5C /* ViewModel */,
+				AFCA262226B7C57B00AE599F /* Controllers */,
+				AFCA262126B7C4E300AE599F /* Supporting files */,
+				AFCA25FA26B6817300AE599F /* Info.plist */,
+			);
+			path = "Import to notion";
+			sourceTree = "<group>";
+		};
+		AFCA260226B6817300AE599F /* Import to notionTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA260326B6817300AE599F /* Import_to_notionTests.swift */,
+				AFCA260526B6817300AE599F /* Info.plist */,
+			);
+			path = "Import to notionTests";
+			sourceTree = "<group>";
+		};
+		AFCA260D26B6817300AE599F /* Import to notionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA260E26B6817300AE599F /* Import_to_notionUITests.swift */,
+				AFCA261026B6817300AE599F /* Info.plist */,
+			);
+			path = "Import to notionUITests";
+			sourceTree = "<group>";
+		};
+		AFCA262026B7C4CA00AE599F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA25EC26B6817300AE599F /* AppDelegate.swift */,
+				AFCA25EE26B6817300AE599F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AFCA262126B7C4E300AE599F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA25F226B6817300AE599F /* Main.storyboard */,
+				AFCA25F726B6817300AE599F /* LaunchScreen.storyboard */,
+				AFCA25F526B6817300AE599F /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		AFCA262226B7C57B00AE599F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F192426C1544F00FF2129 /* Cells */,
+				AFCA25F026B6817300AE599F /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AFCA262626B7DA0700AE599F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA262726B7DA7E00AE599F /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCA25E826B6817300AE599F /* Import to notion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCA261326B6817300AE599F /* Build configuration list for PBXNativeTarget "Import to notion" */;
+			buildPhases = (
+				AFCA25E526B6817300AE599F /* Sources */,
+				AFCA25E626B6817300AE599F /* Frameworks */,
+				AFCA25E726B6817300AE599F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Import to notion";
+			productName = "Import to notion";
+			productReference = AFCA25E926B6817300AE599F /* Import to notion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFCA25FE26B6817300AE599F /* Import to notionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCA261626B6817300AE599F /* Build configuration list for PBXNativeTarget "Import to notionTests" */;
+			buildPhases = (
+				AFCA25FB26B6817300AE599F /* Sources */,
+				AFCA25FC26B6817300AE599F /* Frameworks */,
+				AFCA25FD26B6817300AE599F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCA260126B6817300AE599F /* PBXTargetDependency */,
+			);
+			name = "Import to notionTests";
+			productName = "Import to notionTests";
+			productReference = AFCA25FF26B6817300AE599F /* Import to notionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFCA260926B6817300AE599F /* Import to notionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCA261926B6817300AE599F /* Build configuration list for PBXNativeTarget "Import to notionUITests" */;
+			buildPhases = (
+				AFCA260626B6817300AE599F /* Sources */,
+				AFCA260726B6817300AE599F /* Frameworks */,
+				AFCA260826B6817300AE599F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCA260C26B6817300AE599F /* PBXTargetDependency */,
+			);
+			name = "Import to notionUITests";
+			productName = "Import to notionUITests";
+			productReference = AFCA260A26B6817300AE599F /* Import to notionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCA25E126B6817300AE599F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AFCA25E826B6817300AE599F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AFCA25FE26B6817300AE599F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AFCA25E826B6817300AE599F;
+					};
+					AFCA260926B6817300AE599F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AFCA25E826B6817300AE599F;
+					};
+				};
+			};
+			buildConfigurationList = AFCA25E426B6817300AE599F /* Build configuration list for PBXProject "Import to notion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFCA25E026B6817300AE599F;
+			productRefGroup = AFCA25EA26B6817300AE599F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCA25E826B6817300AE599F /* Import to notion */,
+				AFCA25FE26B6817300AE599F /* Import to notionTests */,
+				AFCA260926B6817300AE599F /* Import to notionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCA25E726B6817300AE599F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCA25F926B6817300AE599F /* LaunchScreen.storyboard in Resources */,
+				AFCA25F626B6817300AE599F /* Assets.xcassets in Resources */,
+				AFCA25F426B6817300AE599F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCA25FD26B6817300AE599F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCA260826B6817300AE599F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCA25E526B6817300AE599F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF883EF326BBB85800086F5C /* ViewModel.swift in Sources */,
+				AFCA25F126B6817300AE599F /* ViewController.swift in Sources */,
+				AF3F192626C1546F00FF2129 /* NotionTableViewCell.swift in Sources */,
+				AFCA25ED26B6817300AE599F /* AppDelegate.swift in Sources */,
+				AFCA25EF26B6817300AE599F /* SceneDelegate.swift in Sources */,
+				AFCA262826B7DA7E00AE599F /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCA25FB26B6817300AE599F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCA260426B6817300AE599F /* Import_to_notionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCA260626B6817300AE599F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCA260F26B6817300AE599F /* Import_to_notionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFCA260126B6817300AE599F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCA25E826B6817300AE599F /* Import to notion */;
+			targetProxy = AFCA260026B6817300AE599F /* PBXContainerItemProxy */;
+		};
+		AFCA260C26B6817300AE599F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCA25E826B6817300AE599F /* Import to notion */;
+			targetProxy = AFCA260B26B6817300AE599F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFCA25F226B6817300AE599F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCA25F326B6817300AE599F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFCA25F726B6817300AE599F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCA25F826B6817300AE599F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFCA261126B6817300AE599F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFCA261226B6817300AE599F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFCA261426B6817300AE599F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Import to notion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dalinkevich.Import-to-notion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFCA261526B6817300AE599F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Import to notion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dalinkevich.Import-to-notion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFCA261726B6817300AE599F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Import to notionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dalinkevich.Import-to-notionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Import to notion.app/Import to notion";
+			};
+			name = Debug;
+		};
+		AFCA261826B6817300AE599F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Import to notionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dalinkevich.Import-to-notionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Import to notion.app/Import to notion";
+			};
+			name = Release;
+		};
+		AFCA261A26B6817300AE599F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Import to notionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dalinkevich.Import-to-notionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Import to notion";
+			};
+			name = Debug;
+		};
+		AFCA261B26B6817300AE599F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Import to notionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dalinkevich.Import-to-notionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Import to notion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCA25E426B6817300AE599F /* Build configuration list for PBXProject "Import to notion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCA261126B6817300AE599F /* Debug */,
+				AFCA261226B6817300AE599F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCA261326B6817300AE599F /* Build configuration list for PBXNativeTarget "Import to notion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCA261426B6817300AE599F /* Debug */,
+				AFCA261526B6817300AE599F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCA261626B6817300AE599F /* Build configuration list for PBXNativeTarget "Import to notionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCA261726B6817300AE599F /* Debug */,
+				AFCA261826B6817300AE599F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCA261926B6817300AE599F /* Build configuration list for PBXNativeTarget "Import to notionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCA261A26B6817300AE599F /* Debug */,
+				AFCA261B26B6817300AE599F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCA25E126B6817300AE599F /* Project object */;
+}
